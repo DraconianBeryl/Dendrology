@@ -11,6 +11,11 @@ public enum ParcelManager
 {
     INSTANCE;
 
+    /*
+     * TODO: it seems that the saplings seeded into this potentialContent
+     *       get depleted when they are given out, as once they are given
+     *       out it requires a jvm restart to be able to get them again.
+     */
     @SuppressWarnings("NonSerializableFieldInSerializableClass")
     private final WeightedSet<ItemStack> potentialContent = WeightedSet.newWeightedSet();
 
