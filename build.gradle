@@ -66,6 +66,8 @@ processResources
 
     // copy everything else, that we didn't do before
     from(sourceSets.main.resources.srcDirs) {
+        exclude '**/compat/chisel/*.java'
+        exclude '**/compat/forestry/*.java'
         exclude '**/*.info'
         exclude '**/version.properties'
     }
@@ -92,6 +94,8 @@ task sourcesJar(type: Jar, dependsOn: classes) {
     }
 
     from(sourceSets.main.allSource) {
+        exclude '**/compat/chisel/*.java'
+        exclude '**/compat/forestry/*.java'
         exclude '**/*.info'
         exclude '**/version.properties'
         exclude '**/TheMod.java'

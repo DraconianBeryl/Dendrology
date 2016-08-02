@@ -4,8 +4,8 @@ import com.google.common.base.Objects;
 import com.google.common.base.Optional;
 import com.google.common.collect.Lists;
 import com.scottkillen.mod.dendrology.block.ModBlocks;
-import com.scottkillen.mod.dendrology.compat.chisel.ChiselMod;
-import com.scottkillen.mod.dendrology.compat.forestry.ForestryMod;
+//import com.scottkillen.mod.dendrology.compat.chisel.ChiselMod;
+//import com.scottkillen.mod.dendrology.compat.forestry.ForestryMod;
 import com.scottkillen.mod.dendrology.compat.gardencollection.GardenCoreMod;
 import com.scottkillen.mod.dendrology.compat.gardencollection.GardenTreesMod;
 import com.scottkillen.mod.dendrology.compat.mfr.MineFactoryReloadedMod;
@@ -84,10 +84,10 @@ public final class TheMod
     {
         Logger.forMod(MOD_ID).info("Preparing integration with other mods.");
         integrators.add(new MinechemMod());
-        integrators.add(new ForestryMod());
+        //integrators.add(new ForestryMod());
         integrators.add(new GardenCoreMod());
         integrators.add(new GardenTreesMod());
-        integrators.add(new ChiselMod());
+        //integrators.add(new ChiselMod());
         integrators.add(new MineFactoryReloadedMod());
         integrators.add(new StorageDrawersMod());
     }
