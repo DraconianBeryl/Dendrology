@@ -1,11 +1,11 @@
 package com.scottkillen.mod.dendrology.content.overworld;
 
 import com.google.common.collect.ImmutableList;
+import com.scottkillen.mod.koresample.common.block.DefinesSlab;
+import com.scottkillen.mod.koresample.common.block.DefinesStairs;
 import com.scottkillen.mod.koresample.tree.DefinesLeaves;
 import com.scottkillen.mod.koresample.tree.DefinesLog;
 import com.scottkillen.mod.koresample.tree.DefinesSapling;
-import com.scottkillen.mod.koresample.tree.DefinesSlab;
-import com.scottkillen.mod.koresample.tree.DefinesStairs;
 import com.scottkillen.mod.koresample.tree.DefinesWood;
 import com.scottkillen.mod.koresample.tree.TreeTaxonomy;
 
