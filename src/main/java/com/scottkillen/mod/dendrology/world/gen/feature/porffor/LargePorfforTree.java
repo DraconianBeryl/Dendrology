@@ -1,8 +1,8 @@
-package com.scottkillen.mod.dendrology.world.gen.feature.porffor;
+package com.github.draconianberyl.dendrology.world.gen.feature.porffor;
 
-import com.scottkillen.mod.dendrology.world.gen.feature.vanilla.AbstractLargeVanillaTree;
+import static com.github.draconianberyl.dendrology.content.overworld.OverworldTreeSpecies.PORFFOR;
 
-import static com.scottkillen.mod.dendrology.content.overworld.OverworldTreeSpecies.PORFFOR;
+import com.github.draconianberyl.dendrology.world.gen.feature.vanilla.AbstractLargeVanillaTree;
 
 public class LargePorfforTree extends AbstractLargeVanillaTree
 {

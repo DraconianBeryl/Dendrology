@@ -1,8 +1,8 @@
-package com.scottkillen.mod.dendrology.world.gen.feature.cerasu;
+package com.github.draconianberyl.dendrology.world.gen.feature.cerasu;
 
-import com.scottkillen.mod.dendrology.world.gen.feature.vanilla.AbstractLargeVanillaTree;
+import static com.github.draconianberyl.dendrology.content.overworld.OverworldTreeSpecies.CERASU;
 
-import static com.scottkillen.mod.dendrology.content.overworld.OverworldTreeSpecies.CERASU;
+import com.github.draconianberyl.dendrology.world.gen.feature.vanilla.AbstractLargeVanillaTree;
 
 public class LargeCerasuTree extends AbstractLargeVanillaTree
 {

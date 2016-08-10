@@ -1,8 +1,8 @@
-package com.scottkillen.mod.dendrology.world.gen.feature.acemus;
+package com.github.draconianberyl.dendrology.world.gen.feature.acemus;
 
-import com.scottkillen.mod.dendrology.world.gen.feature.vanilla.AbstractLargeVanillaTree;
+import static com.github.draconianberyl.dendrology.content.overworld.OverworldTreeSpecies.ACEMUS;
 
-import static com.scottkillen.mod.dendrology.content.overworld.OverworldTreeSpecies.ACEMUS;
+import com.github.draconianberyl.dendrology.world.gen.feature.vanilla.AbstractLargeVanillaTree;
 
 public class LargeAcemusTree extends AbstractLargeVanillaTree
 {
