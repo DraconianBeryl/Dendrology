@@ -95,7 +95,7 @@ Included APIs are governed by the licenses under which they were released.
 
 ##### Storage Drawers
 
-The Storage Drawers integration code (package [com.scottkillen.mod.dendrology.compat.storagedrawers][sd-package]) 
+The Storage Drawers integration code (package [com.github.draconianberyl.dendrology.compat.storagedrawers][sd-package]) 
 contains significant portions written by [Justin Aquadro][jaquadro-profile] and is governed by the MIT license and the 
 terms found [therein][sd-mit].
 
