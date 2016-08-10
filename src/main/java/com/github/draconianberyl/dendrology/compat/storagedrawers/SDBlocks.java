@@ -2,6 +2,8 @@ package com.github.draconianberyl.dendrology.compat.storagedrawers;
 
 import com.github.draconianberyl.dendrology.TheMod;
 import com.github.draconianberyl.dendrology.content.overworld.OverworldTreeSpecies;
+import com.github.draconianberyl.koresample.common.block.SlabBlock;
+import com.github.draconianberyl.koresample.tree.block.WoodBlock;
 import com.google.common.collect.Lists;
 import com.jaquadro.minecraft.storagedrawers.api.IStorageDrawersApi;
 import com.jaquadro.minecraft.storagedrawers.api.StorageDrawersApi;
@@ -12,8 +14,7 @@ import com.jaquadro.minecraft.storagedrawers.api.pack.BlockConfiguration;
 import com.jaquadro.minecraft.storagedrawers.api.pack.IPackBlockFactory;
 import com.jaquadro.minecraft.storagedrawers.api.pack.IPackDataResolver;
 import com.jaquadro.minecraft.storagedrawers.api.pack.StandardDataResolver;
-import com.scottkillen.mod.koresample.common.block.SlabBlock;
-import com.scottkillen.mod.koresample.tree.block.WoodBlock;
+
 import cpw.mods.fml.common.Optional.Method;
 import cpw.mods.fml.common.registry.GameData;
 import cpw.mods.fml.common.registry.GameRegistry;

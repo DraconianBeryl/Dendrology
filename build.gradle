@@ -39,7 +39,6 @@ repositories {
 
 dependencies {
     // compile "com.cricketcraft.chisel:Chisel2:${project.ext.version_chisel}:api"
-    compile "com.scottkillen.mod:KoreSample:${project.ext.version_kore}:deobf"
     compile files('libs/Chisel2-2.4.0.38-api.jar')
     compile "net.sengir.forestry:forestry_${project.version_mc}:${project.ext.version_forestry}:dev"
 }
@@ -50,7 +49,6 @@ processResources
     inputs.property "version", project.version
     inputs.property "version_mc", project.minecraft.version
     inputs.property "version_forge", project.ext.version_forge
-    inputs.property "version_kore", project.ext.version_kore
     inputs.property "version_chisel", project.ext.version_chisel
     inputs.property "version_forestry", project.ext.version_forestry
 
@@ -60,7 +58,7 @@ processResources
         include '**/version.properties'
 
         expand 'mod_version': project.version, 'minecraft_version': project.minecraft.version,
-                'forge_version': project.ext.version_forge, 'kore_version': project.ext.version_kore,
+                'forge_version': project.ext.version_forge,
                 'chisel_version': project.ext.version_chisel, 'sd_version': project.ext.version_storagedrawers
     }
 
@@ -83,7 +81,7 @@ task sourcesJar(type: Jar, dependsOn: classes) {
         include '**/version.properties'
 
         expand 'mod_version': project.version, 'minecraft_version': project.minecraft.version,
-                'forge_version': project.ext.version_forge, 'kore_version': project.ext.version_kore,
+                'forge_version': project.ext.version_forge,
                 'chisel_version': project.ext.version_chisel, 'sd_version': project.ext.version_storagedrawers
     }
 
@@ -110,7 +108,7 @@ task deobfJar(type: Jar) {
         include '**/version.properties'
 
         expand 'mod_version': project.version, 'minecraft_version': project.minecraft.version,
-                'forge_version': project.ext.version_forge, 'kore_version': project.ext.version_kore,
+                'forge_version': project.ext.version_forge,
                 'chisel_version': project.ext.version_chisel, 'sd_version': project.ext.version_storagedrawers
     }
 

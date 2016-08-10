@@ -1,8 +1,9 @@
 package com.github.draconianberyl.dendrology.content;
 
 import com.github.draconianberyl.dendrology.content.overworld.OverworldTreeSpecies;
+import com.github.draconianberyl.koresample.common.util.WeightedSet;
 import com.google.common.base.Objects;
-import com.scottkillen.mod.koresample.common.util.WeightedSet;
+
 import net.minecraft.block.BlockSapling;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;

@@ -2,9 +2,10 @@ package com.github.draconianberyl.dendrology.content.crafting;
 
 import com.github.draconianberyl.dendrology.block.ModBlocks;
 import com.github.draconianberyl.dendrology.content.overworld.OverworldTreeSpecies;
-import com.scottkillen.mod.koresample.common.block.DefinesSlab;
-import com.scottkillen.mod.koresample.common.block.DefinesStairs;
-import com.scottkillen.mod.koresample.tree.DefinesLog;
+import com.github.draconianberyl.koresample.common.block.DefinesSlab;
+import com.github.draconianberyl.koresample.common.block.DefinesStairs;
+import com.github.draconianberyl.koresample.tree.DefinesLog;
+
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;

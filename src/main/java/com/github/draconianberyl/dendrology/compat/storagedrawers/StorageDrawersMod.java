@@ -1,8 +1,9 @@
 package com.github.draconianberyl.dendrology.compat.storagedrawers;
 
 import com.github.draconianberyl.dendrology.config.Settings;
+import com.github.draconianberyl.koresample.compat.Integrator;
 import com.google.common.base.Objects;
-import com.scottkillen.mod.koresample.compat.Integrator;
+
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.LoaderState.ModState;
 import cpw.mods.fml.common.Optional.Method;

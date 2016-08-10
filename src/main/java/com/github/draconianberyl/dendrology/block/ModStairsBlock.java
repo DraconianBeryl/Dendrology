@@ -1,8 +1,8 @@
 package com.github.draconianberyl.dendrology.block;
 
-import com.scottkillen.mod.koresample.common.block.StairsBlock;
 import com.github.draconianberyl.dendrology.TheMod;
-import com.scottkillen.mod.koresample.common.block.DefinesStairs;
+import com.github.draconianberyl.koresample.common.block.DefinesStairs;
+import com.github.draconianberyl.koresample.common.block.StairsBlock;
 
 public final class ModStairsBlock extends StairsBlock
 {

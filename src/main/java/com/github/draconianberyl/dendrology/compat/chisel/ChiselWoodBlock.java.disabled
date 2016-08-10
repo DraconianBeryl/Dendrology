@@ -2,7 +2,7 @@ package com.github.draconianberyl.dendrology.compat.chisel;
 
 import com.google.common.collect.ImmutableList;
 import com.github.draconianberyl.dendrology.TheMod;
-import com.scottkillen.mod.koresample.common.util.multiblock.SubBlockManager;
+import com.github.draconianberyl.koresample.common.util.multiblock.SubBlockManager;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;

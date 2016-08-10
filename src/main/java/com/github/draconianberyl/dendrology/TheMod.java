@@ -16,12 +16,13 @@ import com.github.draconianberyl.dendrology.content.overworld.OverworldTreeGener
 import com.github.draconianberyl.dendrology.content.overworld.OverworldTreeSpecies;
 import com.github.draconianberyl.dendrology.item.ModItems;
 import com.github.draconianberyl.dendrology.proxy.Proxy;
+import com.github.draconianberyl.koresample.common.util.log.Logger;
+import com.github.draconianberyl.koresample.compat.Integrates;
+import com.github.draconianberyl.koresample.config.ConfigEventHandler;
 import com.google.common.base.Objects;
 import com.google.common.base.Optional;
 import com.google.common.collect.Lists;
-import com.scottkillen.mod.koresample.common.util.log.Logger;
-import com.scottkillen.mod.koresample.compat.Integrates;
-import com.scottkillen.mod.koresample.config.ConfigEventHandler;
+
 import cpw.mods.fml.common.LoaderState.ModState;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;

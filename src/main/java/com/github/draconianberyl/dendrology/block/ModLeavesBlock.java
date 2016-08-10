@@ -2,9 +2,10 @@ package com.github.draconianberyl.dendrology.block;
 
 import com.github.draconianberyl.dendrology.TheMod;
 import com.github.draconianberyl.dendrology.config.Settings;
+import com.github.draconianberyl.koresample.tree.DefinesLeaves;
+import com.github.draconianberyl.koresample.tree.block.LeavesBlock;
 import com.google.common.collect.ImmutableList;
-import com.scottkillen.mod.koresample.tree.DefinesLeaves;
-import com.scottkillen.mod.koresample.tree.block.LeavesBlock;
+
 import java.util.Random;
 
 public final class ModLeavesBlock extends LeavesBlock

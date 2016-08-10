@@ -1,9 +1,9 @@
 package com.github.draconianberyl.dendrology.block;
 
 import com.github.draconianberyl.dendrology.TheMod;
+import com.github.draconianberyl.koresample.tree.DefinesWood;
+import com.github.draconianberyl.koresample.tree.block.WoodBlock;
 import com.google.common.collect.ImmutableList;
-import com.scottkillen.mod.koresample.tree.DefinesWood;
-import com.scottkillen.mod.koresample.tree.block.WoodBlock;
 
 public final class ModWoodBlock extends WoodBlock
 {

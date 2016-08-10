@@ -1,9 +1,10 @@
 package com.github.draconianberyl.dendrology.config;
 
 import com.github.draconianberyl.dendrology.TheMod;
+import com.github.draconianberyl.koresample.config.ConfigSyncable;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
-import com.scottkillen.mod.koresample.config.ConfigSyncable;
+
 import net.minecraft.util.StatCollector;
 import net.minecraftforge.common.config.Configuration;
 import java.util.Map;

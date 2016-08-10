@@ -2,9 +2,10 @@ package com.github.draconianberyl.dendrology.block;
 
 import com.github.draconianberyl.dendrology.TheMod;
 import com.github.draconianberyl.dendrology.content.ProvidesPotionEffect;
+import com.github.draconianberyl.koresample.tree.DefinesSapling;
+import com.github.draconianberyl.koresample.tree.block.SaplingBlock;
 import com.google.common.collect.ImmutableList;
-import com.scottkillen.mod.koresample.tree.DefinesSapling;
-import com.scottkillen.mod.koresample.tree.block.SaplingBlock;
+
 import net.minecraft.item.ItemStack;
 import java.util.List;
 

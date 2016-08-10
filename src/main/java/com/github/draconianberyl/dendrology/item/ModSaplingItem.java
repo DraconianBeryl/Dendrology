@@ -1,8 +1,9 @@
 package com.github.draconianberyl.dendrology.item;
 
 import com.github.draconianberyl.dendrology.block.ModSaplingBlock;
+import com.github.draconianberyl.koresample.tree.item.SaplingItem;
 import com.google.common.base.Objects;
-import com.scottkillen.mod.koresample.tree.item.SaplingItem;
+
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 

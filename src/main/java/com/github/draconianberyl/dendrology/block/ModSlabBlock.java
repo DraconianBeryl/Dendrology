@@ -1,9 +1,9 @@
 package com.github.draconianberyl.dendrology.block;
 
 import com.github.draconianberyl.dendrology.TheMod;
+import com.github.draconianberyl.koresample.common.block.DefinesSlab;
+import com.github.draconianberyl.koresample.common.block.SlabBlock;
 import com.google.common.collect.ImmutableList;
-import com.scottkillen.mod.koresample.common.block.SlabBlock;
-import com.scottkillen.mod.koresample.common.block.DefinesSlab;
 
 public final class ModSlabBlock extends SlabBlock
 {

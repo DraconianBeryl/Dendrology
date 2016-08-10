@@ -1,9 +1,9 @@
 package com.github.draconianberyl.dendrology.block;
 
 import com.github.draconianberyl.dendrology.TheMod;
+import com.github.draconianberyl.koresample.tree.DefinesLog;
+import com.github.draconianberyl.koresample.tree.block.LogBlock;
 import com.google.common.collect.ImmutableList;
-import com.scottkillen.mod.koresample.tree.DefinesLog;
-import com.scottkillen.mod.koresample.tree.block.LogBlock;
 
 public final class ModLogBlock extends LogBlock
 {

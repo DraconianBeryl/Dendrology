@@ -2,8 +2,9 @@ package com.github.draconianberyl.dendrology.world.gen.feature;
 
 import com.github.draconianberyl.dendrology.world.gen.feature.porffor.LargePorfforTree;
 import com.github.draconianberyl.dendrology.world.gen.feature.vanilla.VanillaTree;
+import com.github.draconianberyl.koresample.tree.DefinesTree;
 import com.google.common.base.Objects;
-import com.scottkillen.mod.koresample.tree.DefinesTree;
+
 import net.minecraft.world.World;
 import java.util.Random;
 

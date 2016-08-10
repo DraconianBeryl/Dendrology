@@ -3,11 +3,12 @@ package com.github.draconianberyl.dendrology.compat.gardencollection;
 import com.github.draconianberyl.dendrology.TheMod;
 import com.github.draconianberyl.dendrology.config.Settings;
 import com.github.draconianberyl.dendrology.content.overworld.OverworldTreeSpecies;
+import com.github.draconianberyl.koresample.compat.Integrator;
 import com.jaquadro.minecraft.gardencore.api.SaplingRegistry;
 import com.jaquadro.minecraft.gardencore.util.UniqueMetaIdentifier;
 import com.jaquadro.minecraft.gardentrees.world.gen.OrnamentalTreeFactory;
 import com.jaquadro.minecraft.gardentrees.world.gen.OrnamentalTreeRegistry;
-import com.scottkillen.mod.koresample.compat.Integrator;
+
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.LoaderState.ModState;
 import cpw.mods.fml.common.Optional.Method;
