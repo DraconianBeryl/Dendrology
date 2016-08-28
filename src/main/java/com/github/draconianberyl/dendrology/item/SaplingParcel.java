@@ -57,7 +57,7 @@ public class SaplingParcel extends Item
                 final String itemName = StatCollector.translateToLocal(content.getItem().getUnlocalizedName(content) + ".name");
                 message = StatCollector.translateToLocalFormatted("dendrology:parcel.full", itemName);
 
-                final EntityItem entityItem = player.dropPlayerItemWithRandomChoice(content, false);
+                final EntityItem entityItem = player.dropPlayerItemWithRandomChoice(content.copy(), false);
                 if (entityItem != null)
                 {
                     entityItem.delayBeforeCanPickup = 0;
